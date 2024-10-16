@@ -21,3 +21,9 @@ To compile and run the system, you need:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/sivakalyani121/LibraryManagementSystem.git
+2. **Compile the code**:
+   In terminal navigate to project directory and type the bellow command
+    g++ main.cpp Book.cpp Library.cpp Librarian.cpp Student.cpp Transaction.cpp User.cpp -o LibrarySystem
+4. **Run the code**:
+    type bellow command after successfully executing the code
+    LibrarySystem.exe
